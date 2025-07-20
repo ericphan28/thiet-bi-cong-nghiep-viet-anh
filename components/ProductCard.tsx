@@ -6,7 +6,6 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/componen
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Product } from '@/lib/mock-data'
-import { formatPrice } from '@/lib/utils'
 import ImageWithFallback from '@/components/ui/ImageWithFallback'
 
 interface ProductCardProps {
@@ -15,10 +14,6 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const [selectedVariant, setSelectedVariant] = useState(0)
-  
-  const currentPrice = product.variants 
-    ? product.variants[selectedVariant].price 
-    : product.price
 
   return (
     <Card className="group hover:shadow-lg transition-all duration-300 h-full">
@@ -32,11 +27,6 @@ export default function ProductCard({ product }: ProductCardProps) {
             className="w-full h-full"
           />
           
-          {product.discount && (
-            <Badge className="absolute top-2 left-2 bg-red-500">
-              -{product.discount}%
-            </Badge>
-          )}
           {product.featured && (
             <Badge className="absolute top-2 right-2 bg-blue-500">
               Nổi bật
@@ -79,16 +69,19 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
         )}
 
-        {/* Price */}
-        <div className="flex items-center gap-2 mb-4">
-          <span className="text-2xl font-bold text-blue-600">
-            {formatPrice(currentPrice)}
-          </span>
-          {product.originalPrice && (
-            <span className="text-sm text-gray-400 line-through">
-              {formatPrice(product.originalPrice)}
-            </span>
-          )}
+        {/* Contact Info */}
+        <div className="mb-4 p-3 bg-blue-50 rounded-lg border border-blue-200">
+          <div className="text-center">
+            <p className="text-sm text-blue-600 font-medium mb-1">
+              {product.contactInfo.message}
+            </p>
+            <p className="text-lg font-bold text-blue-700 mb-1">
+              📞 {product.contactInfo.hotline}
+            </p>
+            <p className="text-xs text-blue-500">
+              Tư vấn miễn phí • Báo giá nhanh chóng
+            </p>
+          </div>
         </div>
 
         {/* Specs */}
@@ -110,8 +103,8 @@ export default function ProductCard({ product }: ProductCardProps) {
             </Link>
           </Button>
           
-          <Button variant="outline" className="w-full">
-            📞 Liên hệ báo giá
+          <Button variant="outline" className="w-full bg-blue-50 border-blue-200 text-blue-700 hover:bg-blue-100">
+            📞 {product.contactInfo.action}
           </Button>
         </div>
       </CardFooter>

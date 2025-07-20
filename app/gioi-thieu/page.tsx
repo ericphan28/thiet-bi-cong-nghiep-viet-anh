@@ -105,13 +105,15 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Khởi Đầu & Sứ Mệnh</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Được thành lập từ năm 2015, {companyInfo.name} bắt đầu từ ý tưởng đơn giản: 
-                  cung cấp những sản phẩm bánh xe đẩy chất lượng cao với giá cả hợp lý, 
-                  giúp các doanh nghiệp và gia đình có được những giải pháp vận chuyển tốt nhất.
+                  Với bề dày kinh nghiệm của đội ngũ sáng lập công ty trong lĩnh vực cung cấp 
+                  thiết bị công nghiệp và bánh xe đẩy, chúng tôi hiểu rõ những thách thức mà 
+                  doanh nghiệp và gia đình thường gặp phải trong việc tìm kiếm giải pháp vận chuyển 
+                  phù hợp và chất lượng.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Với đội ngũ có nhiều năm kinh nghiệm trong ngành, chúng tôi hiểu rõ nhu cầu 
-                  đa dạng của khách hàng và cam kết mang đến những sản phẩm phù hợp nhất.
+                  Xuất phát từ mong muốn mang đến những sản phẩm bánh xe đẩy chất lượng cao với 
+                  giá cả hợp lý, chúng tôi cam kết cung cấp những giải pháp vận chuyển tối ưu nhất 
+                  dựa trên kinh nghiệm thực tế và sự hiểu biết sâu sắc về nhu cầu đa dạng của khách hàng.
                 </p>
               </div>
               <div className="relative">

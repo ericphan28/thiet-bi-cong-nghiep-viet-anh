@@ -14,17 +14,19 @@ export interface Product {
   name: string
   slug: string
   description: string
-  price: number
-  originalPrice?: number
   categoryId: string
   images: string[]
   specifications: Record<string, string>
   inStock: boolean
   featured: boolean
-  discount?: number
+  contactInfo: {
+    message: string
+    hotline: string
+    action: string
+  }
   variants?: {
     type: string
-    price: number
+    availability: 'available' | 'preorder' | 'contact'
   }[]
 }
 
@@ -118,7 +120,6 @@ export const mockProducts: Product[] = [
     name: 'Bánh xe tải nhẹ 75mm',
     slug: 'banh-xe-tai-nhe-75mm',
     description: 'Bánh xe tải nhẹ 75mm, chịu tải 50kg, phù hợp cho xe đẩy gia đình',
-    price: 69000,
     categoryId: '1',
     images: ['/images/products/banh-xe-tai-nhe/75mm-main.jpg'],
     specifications: {
@@ -130,10 +131,15 @@ export const mockProducts: Product[] = [
     },
     inStock: true,
     featured: true,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    },
     variants: [
-      { type: 'Cố định', price: 69000 },
-      { type: 'Xoay', price: 73000 },
-      { type: 'Có khóa', price: 79000 }
+      { type: 'Cố định', availability: 'available' },
+      { type: 'Xoay', availability: 'available' },
+      { type: 'Có khóa', availability: 'available' }
     ]
   },
 
@@ -143,7 +149,6 @@ export const mockProducts: Product[] = [
     name: 'Bánh xe tải trung 100mm',
     slug: 'banh-xe-tai-trung-100mm',
     description: 'Bánh xe tải trung 100mm, chịu tải 120kg, ứng dụng thương mại',
-    price: 120000,
     categoryId: '2',
     images: ['/images/products/banh-xe-tai-trung/100mm-main.jpg'],
     specifications: {
@@ -155,10 +160,15 @@ export const mockProducts: Product[] = [
     },
     inStock: true,
     featured: true,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    },
     variants: [
-      { type: 'Cố định', price: 120000 },
-      { type: 'Xoay', price: 130000 },
-      { type: 'Có khóa', price: 160000 }
+      { type: 'Cố định', availability: 'available' },
+      { type: 'Xoay', availability: 'available' },
+      { type: 'Có khóa', availability: 'available' }
     ]
   },
 
@@ -167,7 +177,6 @@ export const mockProducts: Product[] = [
     name: 'Bánh xe tải trung 125mm',
     slug: 'banh-xe-tai-trung-125mm',
     description: 'Bánh xe tải trung 125mm, chịu tải 150kg, bền bỉ và ổn định',
-    price: 144000,
     categoryId: '2',
     images: ['/images/products/banh-xe-tai-trung/125mm-main.jpg'],
     specifications: {
@@ -179,10 +188,15 @@ export const mockProducts: Product[] = [
     },
     inStock: true,
     featured: true,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    },
     variants: [
-      { type: 'Cố định', price: 144000 },
-      { type: 'Xoay', price: 157000 },
-      { type: 'Có khóa', price: 189000 }
+      { type: 'Cố định', availability: 'available' },
+      { type: 'Xoay', availability: 'available' },
+      { type: 'Có khóa', availability: 'available' }
     ]
   },
 
@@ -192,7 +206,6 @@ export const mockProducts: Product[] = [
     name: 'Bánh xe tải nặng 150mm',
     slug: 'banh-xe-tai-nang-150mm',
     description: 'Bánh xe tải nặng 150mm, chịu tải 200kg, cho công nghiệp nặng',
-    price: 155800,
     categoryId: '3',
     images: ['/images/products/banh-xe-tai-nang/150mm-main.jpg'],
     specifications: {
@@ -204,10 +217,15 @@ export const mockProducts: Product[] = [
     },
     inStock: true,
     featured: true,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    },
     variants: [
-      { type: 'Cố định', price: 155800 },
-      { type: 'Xoay', price: 165000 },
-      { type: 'Có khóa', price: 195000 }
+      { type: 'Cố định', availability: 'available' },
+      { type: 'Xoay', availability: 'available' },
+      { type: 'Có khóa', availability: 'available' }
     ]
   },
 
@@ -216,7 +234,6 @@ export const mockProducts: Product[] = [
     name: 'Bánh xe tải nặng 200mm',
     slug: 'banh-xe-tai-nang-200mm',
     description: 'Bánh xe tải nặng 200mm, chịu tải 300kg, size lớn nhất',
-    price: 181000,
     categoryId: '3',
     images: ['/images/products/banh-xe-tai-nang/200mm-main.jpg'],
     specifications: {
@@ -228,10 +245,15 @@ export const mockProducts: Product[] = [
     },
     inStock: true,
     featured: false,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    },
     variants: [
-      { type: 'Cố định', price: 181000 },
-      { type: 'Xoay', price: 200000 },
-      { type: 'Có khóa', price: 230000 }
+      { type: 'Cố định', availability: 'available' },
+      { type: 'Xoay', availability: 'available' },
+      { type: 'Có khóa', availability: 'available' }
     ]
   },
 
@@ -241,7 +263,6 @@ export const mockProducts: Product[] = [
     name: 'Bánh xe giảm chấn 125mm',
     slug: 'banh-xe-giam-chan-125mm',
     description: 'Bánh xe có hệ thống giảm chấn, vận hành êm ái và không ồn',
-    price: 280000,
     categoryId: '4',
     images: ['/images/products/banh-xe-giam-chan/125mm-main.jpg'],
     specifications: {
@@ -253,7 +274,12 @@ export const mockProducts: Product[] = [
       'Bảo hành': '24 tháng'
     },
     inStock: true,
-    featured: true
+    featured: true,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    }
   },
 
   // Bánh xe y tế
@@ -262,7 +288,6 @@ export const mockProducts: Product[] = [
     name: 'Bánh xe y tế 125mm',
     slug: 'banh-xe-y-te-125mm',
     description: 'Bánh xe chuyên dụng cho thiết bị y tế, giường bệnh và xe lăn',
-    price: 700000,
     categoryId: '5',
     images: ['/images/products/banh-xe-y-te/125mm-main.jpg'],
     specifications: {
@@ -274,7 +299,12 @@ export const mockProducts: Product[] = [
       'Bảo hành': '24 tháng'
     },
     inStock: true,
-    featured: true
+    featured: true,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    }
   },
 
   // Xe đẩy hàng
@@ -283,7 +313,6 @@ export const mockProducts: Product[] = [
     name: 'Xe đẩy hàng 4 bánh 300kg',
     slug: 'xe-day-hang-4-banh-300kg',
     description: 'Xe đẩy 4 bánh chịu tải 300kg, thân xe từ thép không gỉ',
-    price: 1800000,
     categoryId: '6',
     images: ['/images/products/xe-day-hang/4-banh-300kg-main.jpg'],
     specifications: {
@@ -295,7 +324,12 @@ export const mockProducts: Product[] = [
       'Bảo hành': '18 tháng'
     },
     inStock: true,
-    featured: true
+    featured: true,
+    contactInfo: {
+      message: 'Liên hệ để báo giá tốt nhất',
+      hotline: '0908 123 456',
+      action: 'Yêu cầu báo giá'
+    }
   }
 ]
 
@@ -342,7 +376,7 @@ export const companyInfo = {
   contact: {
     name: 'Nguyễn Văn Nam',
     phone: ['0933408565', '0946656975'],
-    email: 'info@banhxedayhcm.com',
+    email: 'nguyennam82dian@gmail.com',
     website: 'https://banhxedayhcm.com'
   },
   workingHours: {
