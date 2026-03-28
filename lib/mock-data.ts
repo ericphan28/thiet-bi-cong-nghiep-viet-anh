@@ -48,7 +48,7 @@ export const mockCategories: Category[] = [
     description: 'Bánh xe chịu tải 70-130kg, phù hợp cho ứng dụng thương mại',
     icon: '🟠',
     productCount: 24,
-    color: 'from-orange-500 to-orange-600',
+    color: 'from-orange-700 to-orange-800',
     featured: true
   },
   {
@@ -78,7 +78,7 @@ export const mockCategories: Category[] = [
     description: 'Bánh xe chuyên dụng cho thiết bị y tế và bệnh viện',
     icon: '🏥',
     productCount: 8,
-    color: 'from-green-500 to-green-600',
+    color: 'from-green-700 to-green-800',
     featured: true
   },
   {
@@ -88,7 +88,7 @@ export const mockCategories: Category[] = [
     description: 'Xe đẩy hàng hoàn chỉnh với nhiều kích thước và tải trọng',
     icon: '🛒',
     productCount: 20,
-    color: 'from-cyan-500 to-cyan-600',
+    color: 'from-cyan-700 to-cyan-800',
     featured: false
   },
   {
@@ -108,7 +108,7 @@ export const mockCategories: Category[] = [
     description: 'Khóa bánh xe, bearing, trục và các phụ kiện đi kèm',
     icon: '🔧',
     productCount: 25,
-    color: 'from-amber-500 to-amber-600',
+    color: 'from-amber-700 to-amber-800',
     featured: false
   }
 ]

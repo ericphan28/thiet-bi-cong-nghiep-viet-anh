@@ -172,7 +172,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Cần Tư Vấn Chi Tiết?</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
             Đội ngũ chuyên viên của chúng tôi sẵn sàng tư vấn chi tiết về các sản phẩm {category.name.toLowerCase()} 
             phù hợp với nhu cầu của bạn.
           </p>

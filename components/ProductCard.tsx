@@ -78,7 +78,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <p className="text-lg font-bold text-blue-700 mb-1">
               📞 {product.contactInfo.hotline}
             </p>
-            <p className="text-xs text-blue-500">
+            <p className="text-xs text-blue-700">
               Tư vấn miễn phí • Báo giá nhanh chóng
             </p>
           </div>

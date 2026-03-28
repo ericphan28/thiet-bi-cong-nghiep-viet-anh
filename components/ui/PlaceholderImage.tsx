@@ -13,7 +13,7 @@ export default function PlaceholderImage({
   text = `${width}x${height}`,
   className = "",
   bgColor = "bg-gray-200",
-  textColor = "text-gray-500"
+  textColor = "text-gray-700"
 }: PlaceholderImageProps) {
   return (
     <div 
@@ -36,7 +36,7 @@ export default function PlaceholderImage({
       <div className="text-center z-10">
         <div className="text-4xl mb-2">🛞</div>
         <div className="font-medium text-sm">{text}</div>
-        <div className="text-xs opacity-70">{width} × {height}</div>
+        <div className="text-xs opacity-90">{width} × {height}</div>
       </div>
     </div>
   )

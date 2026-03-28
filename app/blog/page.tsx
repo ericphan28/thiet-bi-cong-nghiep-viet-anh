@@ -43,7 +43,7 @@ export default function BlogPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Kiến thức bánh xe công nghiệp
           </h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <p className="text-xl text-blue-50 max-w-3xl mx-auto">
             Chia sẻ kinh nghiệm, hướng dẫn chọn mua và bảo trì bánh xe đẩy 
             từ đội ngũ chuyên gia với hơn 10 năm kinh nghiệm
           </p>
@@ -159,7 +159,7 @@ export default function BlogPage() {
         {/* CTA */}
         <div className="mt-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-center text-white">
           <h2 className="text-2xl font-bold mb-3">Cần tư vấn thêm?</h2>
-          <p className="text-blue-100 mb-6 max-w-xl mx-auto">
+          <p className="text-blue-50 mb-6 max-w-xl mx-auto">
             Đội ngũ chuyên gia của chúng tôi sẵn sàng hỗ trợ bạn chọn bánh xe phù hợp nhất
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -137,7 +137,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Header image */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-12">
         <div className="container mx-auto px-4">
-          <Link href="/blog" className="inline-flex items-center gap-2 text-blue-200 hover:text-white mb-6 transition-colors">
+          <Link href="/blog" className="inline-flex items-center gap-2 text-blue-50 hover:text-white mb-6 transition-colors">
             <ArrowLeft className="w-4 h-4" /> Quay lại Blog
           </Link>
           <div className="max-w-3xl">
@@ -147,7 +147,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </Badge>
             )}
             <h1 className="text-3xl md:text-4xl font-bold mb-4">{post.title}</h1>
-            <div className="flex flex-wrap items-center gap-4 text-blue-200 text-sm">
+            <div className="flex flex-wrap items-center gap-4 text-blue-50 text-sm">
               <span className="flex items-center gap-1">
                 <User className="w-4 h-4" /> {post.author}
               </span>

@@ -68,7 +68,7 @@ export default function ContactPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Liên Hệ Với Chúng Tôi
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-blue-50 max-w-3xl mx-auto">
               Đội ngũ chuyên viên của {companyInfo.shortName} sẵn sàng tư vấn và hỗ trợ bạn 
               tìm kiếm giải pháp bánh xe đẩy phù hợp nhất.
             </p>
@@ -451,7 +451,7 @@ export default function ContactPage() {
       <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Liên Hệ Nhanh</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
             Bạn cần tư vấn ngay? Hãy gọi hotline hoặc nhắn tin cho chúng tôi!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
