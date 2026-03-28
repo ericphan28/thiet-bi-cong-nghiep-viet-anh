@@ -1,4 +1,4 @@
-export interface Category {
+﻿export interface Category {
   id: string
   name: string
   slug: string
@@ -33,80 +33,80 @@ export interface Product {
 export const mockCategories: Category[] = [
   {
     id: '1',
-    name: 'Bánh xe tải nhẹ',
+    name: 'BÃ¡nh xe táº£i nháº¹',
     slug: 'banh-xe-tai-nhe',
-    description: 'Bánh xe chịu tải 30-50kg, phù hợp cho xe đẩy nhẹ và gia đình',
-    icon: '🔵',
+    description: 'BÃ¡nh xe chá»‹u táº£i 30-50kg, phÃ¹ há»£p cho xe Ä‘áº©y nháº¹ vÃ  gia Ä‘Ã¬nh',
+    icon: 'ðŸ”µ',
     productCount: 15,
     color: 'from-blue-500 to-blue-600',
     featured: true
   },
   {
     id: '2',
-    name: 'Bánh xe tải trung',
+    name: 'BÃ¡nh xe táº£i trung',
     slug: 'banh-xe-tai-trung',
-    description: 'Bánh xe chịu tải 70-130kg, phù hợp cho ứng dụng thương mại',
-    icon: '🟠',
+    description: 'BÃ¡nh xe chá»‹u táº£i 70-130kg, phÃ¹ há»£p cho á»©ng dá»¥ng thÆ°Æ¡ng máº¡i',
+    icon: 'ðŸŸ ',
     productCount: 24,
     color: 'from-orange-500 to-orange-600',
     featured: true
   },
   {
     id: '3',
-    name: 'Bánh xe tải nặng',
+    name: 'BÃ¡nh xe táº£i náº·ng',
     slug: 'banh-xe-tai-nang',
-    description: 'Bánh xe chịu tải 150-400kg, chuyên dụng cho công nghiệp nặng',
-    icon: '🔴',
+    description: 'BÃ¡nh xe chá»‹u táº£i 150-400kg, chuyÃªn dá»¥ng cho cÃ´ng nghiá»‡p náº·ng',
+    icon: 'ðŸ”´',
     productCount: 18,
     color: 'from-red-500 to-red-600',
     featured: true
   },
   {
     id: '4',
-    name: 'Bánh xe giảm chấn',
+    name: 'BÃ¡nh xe giáº£m cháº¥n',
     slug: 'banh-xe-giam-chan',
-    description: 'Bánh xe có hệ thống giảm chấn, vận hành êm ái',
-    icon: '🟣',
+    description: 'BÃ¡nh xe cÃ³ há»‡ thá»‘ng giáº£m cháº¥n, váº­n hÃ nh Ãªm Ã¡i',
+    icon: 'ðŸŸ£',
     productCount: 12,
     color: 'from-purple-500 to-purple-600',
     featured: true
   },
   {
     id: '5',
-    name: 'Bánh xe y tế',
+    name: 'BÃ¡nh xe y táº¿',
     slug: 'banh-xe-y-te',
-    description: 'Bánh xe chuyên dụng cho thiết bị y tế và bệnh viện',
-    icon: '🏥',
+    description: 'BÃ¡nh xe chuyÃªn dá»¥ng cho thiáº¿t bá»‹ y táº¿ vÃ  bá»‡nh viá»‡n',
+    icon: 'ðŸ¥',
     productCount: 8,
     color: 'from-green-500 to-green-600',
     featured: true
   },
   {
     id: '6',
-    name: 'Xe đẩy hàng',
+    name: 'Xe Ä‘áº©y hÃ ng',
     slug: 'xe-day-hang',
-    description: 'Xe đẩy hàng hoàn chỉnh với nhiều kích thước và tải trọng',
-    icon: '🛒',
+    description: 'Xe Ä‘áº©y hÃ ng hoÃ n chá»‰nh vá»›i nhiá»u kÃ­ch thÆ°á»›c vÃ  táº£i trá»ng',
+    icon: 'ðŸ›’',
     productCount: 20,
     color: 'from-cyan-500 to-cyan-600',
     featured: false
   },
   {
     id: '7',
-    name: 'Bánh xe siêu tải',
+    name: 'BÃ¡nh xe siÃªu táº£i',
     slug: 'banh-xe-sieu-tai',
-    description: 'Bánh xe chịu tải cực cao trên 500kg, cho ứng dụng đặc biệt',
-    icon: '⚫',
+    description: 'BÃ¡nh xe chá»‹u táº£i cá»±c cao trÃªn 500kg, cho á»©ng dá»¥ng Ä‘áº·c biá»‡t',
+    icon: 'âš«',
     productCount: 6,
     color: 'from-gray-500 to-gray-600',
     featured: false
   },
   {
     id: '8',
-    name: 'Phụ kiện bánh xe',
+    name: 'Phá»¥ kiá»‡n bÃ¡nh xe',
     slug: 'phu-kien-banh-xe',
-    description: 'Khóa bánh xe, bearing, trục và các phụ kiện đi kèm',
-    icon: '🔧',
+    description: 'KhÃ³a bÃ¡nh xe, bearing, trá»¥c vÃ  cÃ¡c phá»¥ kiá»‡n Ä‘i kÃ¨m',
+    icon: 'ðŸ”§',
     productCount: 25,
     color: 'from-amber-500 to-amber-600',
     featured: false
@@ -114,221 +114,221 @@ export const mockCategories: Category[] = [
 ]
 
 export const mockProducts: Product[] = [
-  // Bánh xe tải nhẹ (30-50kg)
+  // BÃ¡nh xe táº£i nháº¹ (30-50kg)
   {
     id: 'p1',
-    name: 'Bánh xe tải nhẹ 75mm',
+    name: 'BÃ¡nh xe táº£i nháº¹ 75mm',
     slug: 'banh-xe-tai-nhe-75mm',
-    description: 'Bánh xe tải nhẹ 75mm, chịu tải 50kg, phù hợp cho xe đẩy gia đình',
+    description: 'BÃ¡nh xe táº£i nháº¹ 75mm, chá»‹u táº£i 50kg, phÃ¹ há»£p cho xe Ä‘áº©y gia Ä‘Ã¬nh',
     categoryId: '1',
     images: ['/images/products/banh-xe-tai-nhe/75mm-main.jpg'],
     specifications: {
-      'Đường kính': '75mm',
-      'Chịu tải': '50kg',
-      'Chất liệu': 'PU + thép',
-      'Xuất xứ': 'Việt Nam',
-      'Bảo hành': '6 tháng'
+      'ÄÆ°á»ng kÃ­nh': '75mm',
+      'Chá»‹u táº£i': '50kg',
+      'Cháº¥t liá»‡u': 'PU + thÃ©p',
+      'Xuáº¥t xá»©': 'Viá»‡t Nam',
+      'Báº£o hÃ nh': '6 thÃ¡ng'
     },
     inStock: true,
     featured: true,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     },
     variants: [
-      { type: 'Cố định', availability: 'available' },
+      { type: 'Cá»‘ Ä‘á»‹nh', availability: 'available' },
       { type: 'Xoay', availability: 'available' },
-      { type: 'Có khóa', availability: 'available' }
+      { type: 'CÃ³ khÃ³a', availability: 'available' }
     ]
   },
 
-  // Bánh xe tải trung (70-130kg)
+  // BÃ¡nh xe táº£i trung (70-130kg)
   {
     id: 'p2',
-    name: 'Bánh xe tải trung 100mm',
+    name: 'BÃ¡nh xe táº£i trung 100mm',
     slug: 'banh-xe-tai-trung-100mm',
-    description: 'Bánh xe tải trung 100mm, chịu tải 120kg, ứng dụng thương mại',
+    description: 'BÃ¡nh xe táº£i trung 100mm, chá»‹u táº£i 120kg, á»©ng dá»¥ng thÆ°Æ¡ng máº¡i',
     categoryId: '2',
     images: ['/images/products/banh-xe-tai-trung/100mm-main.jpg'],
     specifications: {
-      'Đường kính': '100mm',
-      'Chịu tải': '120kg',
-      'Chất liệu': 'PU + thép',
-      'Xuất xứ': 'Việt Nam',
-      'Bảo hành': '12 tháng'
+      'ÄÆ°á»ng kÃ­nh': '100mm',
+      'Chá»‹u táº£i': '120kg',
+      'Cháº¥t liá»‡u': 'PU + thÃ©p',
+      'Xuáº¥t xá»©': 'Viá»‡t Nam',
+      'Báº£o hÃ nh': '12 thÃ¡ng'
     },
     inStock: true,
     featured: true,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     },
     variants: [
-      { type: 'Cố định', availability: 'available' },
+      { type: 'Cá»‘ Ä‘á»‹nh', availability: 'available' },
       { type: 'Xoay', availability: 'available' },
-      { type: 'Có khóa', availability: 'available' }
+      { type: 'CÃ³ khÃ³a', availability: 'available' }
     ]
   },
 
   {
     id: 'p3',
-    name: 'Bánh xe tải trung 125mm',
+    name: 'BÃ¡nh xe táº£i trung 125mm',
     slug: 'banh-xe-tai-trung-125mm',
-    description: 'Bánh xe tải trung 125mm, chịu tải 150kg, bền bỉ và ổn định',
+    description: 'BÃ¡nh xe táº£i trung 125mm, chá»‹u táº£i 150kg, bá»n bá»‰ vÃ  á»•n Ä‘á»‹nh',
     categoryId: '2',
     images: ['/images/products/banh-xe-tai-trung/125mm-main.jpg'],
     specifications: {
-      'Đường kính': '125mm',
-      'Chịu tải': '150kg',
-      'Chất liệu': 'PU + thép',
-      'Xuất xứ': 'Việt Nam',
-      'Bảo hành': '12 tháng'
+      'ÄÆ°á»ng kÃ­nh': '125mm',
+      'Chá»‹u táº£i': '150kg',
+      'Cháº¥t liá»‡u': 'PU + thÃ©p',
+      'Xuáº¥t xá»©': 'Viá»‡t Nam',
+      'Báº£o hÃ nh': '12 thÃ¡ng'
     },
     inStock: true,
     featured: true,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     },
     variants: [
-      { type: 'Cố định', availability: 'available' },
+      { type: 'Cá»‘ Ä‘á»‹nh', availability: 'available' },
       { type: 'Xoay', availability: 'available' },
-      { type: 'Có khóa', availability: 'available' }
+      { type: 'CÃ³ khÃ³a', availability: 'available' }
     ]
   },
 
-  // Bánh xe tải nặng (150-400kg)
+  // BÃ¡nh xe táº£i náº·ng (150-400kg)
   {
     id: 'p4',
-    name: 'Bánh xe tải nặng 150mm',
+    name: 'BÃ¡nh xe táº£i náº·ng 150mm',
     slug: 'banh-xe-tai-nang-150mm',
-    description: 'Bánh xe tải nặng 150mm, chịu tải 200kg, cho công nghiệp nặng',
+    description: 'BÃ¡nh xe táº£i náº·ng 150mm, chá»‹u táº£i 200kg, cho cÃ´ng nghiá»‡p náº·ng',
     categoryId: '3',
     images: ['/images/products/banh-xe-tai-nang/150mm-main.jpg'],
     specifications: {
-      'Đường kính': '150mm',
-      'Chịu tải': '200kg',
-      'Chất liệu': 'PU + thép cường lực',
-      'Xuất xứ': 'Việt Nam',
-      'Bảo hành': '18 tháng'
+      'ÄÆ°á»ng kÃ­nh': '150mm',
+      'Chá»‹u táº£i': '200kg',
+      'Cháº¥t liá»‡u': 'PU + thÃ©p cÆ°á»ng lá»±c',
+      'Xuáº¥t xá»©': 'Viá»‡t Nam',
+      'Báº£o hÃ nh': '18 thÃ¡ng'
     },
     inStock: true,
     featured: true,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     },
     variants: [
-      { type: 'Cố định', availability: 'available' },
+      { type: 'Cá»‘ Ä‘á»‹nh', availability: 'available' },
       { type: 'Xoay', availability: 'available' },
-      { type: 'Có khóa', availability: 'available' }
+      { type: 'CÃ³ khÃ³a', availability: 'available' }
     ]
   },
 
   {
     id: 'p5',
-    name: 'Bánh xe tải nặng 200mm',
+    name: 'BÃ¡nh xe táº£i náº·ng 200mm',
     slug: 'banh-xe-tai-nang-200mm',
-    description: 'Bánh xe tải nặng 200mm, chịu tải 300kg, size lớn nhất',
+    description: 'BÃ¡nh xe táº£i náº·ng 200mm, chá»‹u táº£i 300kg, size lá»›n nháº¥t',
     categoryId: '3',
     images: ['/images/products/banh-xe-tai-nang/200mm-main.jpg'],
     specifications: {
-      'Đường kính': '200mm',
-      'Chịu tải': '300kg',
-      'Chất liệu': 'PU + thép cường lực',
-      'Xuất xứ': 'Việt Nam',
-      'Bảo hành': '18 tháng'
+      'ÄÆ°á»ng kÃ­nh': '200mm',
+      'Chá»‹u táº£i': '300kg',
+      'Cháº¥t liá»‡u': 'PU + thÃ©p cÆ°á»ng lá»±c',
+      'Xuáº¥t xá»©': 'Viá»‡t Nam',
+      'Báº£o hÃ nh': '18 thÃ¡ng'
     },
     inStock: true,
     featured: false,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     },
     variants: [
-      { type: 'Cố định', availability: 'available' },
+      { type: 'Cá»‘ Ä‘á»‹nh', availability: 'available' },
       { type: 'Xoay', availability: 'available' },
-      { type: 'Có khóa', availability: 'available' }
+      { type: 'CÃ³ khÃ³a', availability: 'available' }
     ]
   },
 
-  // Bánh xe giảm chấn
+  // BÃ¡nh xe giáº£m cháº¥n
   {
     id: 'p6',
-    name: 'Bánh xe giảm chấn 125mm',
+    name: 'BÃ¡nh xe giáº£m cháº¥n 125mm',
     slug: 'banh-xe-giam-chan-125mm',
-    description: 'Bánh xe có hệ thống giảm chấn, vận hành êm ái và không ồn',
+    description: 'BÃ¡nh xe cÃ³ há»‡ thá»‘ng giáº£m cháº¥n, váº­n hÃ nh Ãªm Ã¡i vÃ  khÃ´ng á»“n',
     categoryId: '4',
     images: ['/images/products/banh-xe-giam-chan/125mm-main.jpg'],
     specifications: {
-      'Đường kính': '125mm',
-      'Chịu tải': '150kg',
-      'Chất liệu': 'PU + spring steel',
-      'Tính năng': 'Giảm chấn',
-      'Xuất xứ': 'Việt Nam',
-      'Bảo hành': '24 tháng'
+      'ÄÆ°á»ng kÃ­nh': '125mm',
+      'Chá»‹u táº£i': '150kg',
+      'Cháº¥t liá»‡u': 'PU + spring steel',
+      'TÃ­nh nÄƒng': 'Giáº£m cháº¥n',
+      'Xuáº¥t xá»©': 'Viá»‡t Nam',
+      'Báº£o hÃ nh': '24 thÃ¡ng'
     },
     inStock: true,
     featured: true,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     }
   },
 
-  // Bánh xe y tế
+  // BÃ¡nh xe y táº¿
   {
     id: 'p7',
-    name: 'Bánh xe y tế 125mm',
+    name: 'BÃ¡nh xe y táº¿ 125mm',
     slug: 'banh-xe-y-te-125mm',
-    description: 'Bánh xe chuyên dụng cho thiết bị y tế, giường bệnh và xe lăn',
+    description: 'BÃ¡nh xe chuyÃªn dá»¥ng cho thiáº¿t bá»‹ y táº¿, giÆ°á»ng bá»‡nh vÃ  xe lÄƒn',
     categoryId: '5',
     images: ['/images/products/banh-xe-y-te/125mm-main.jpg'],
     specifications: {
-      'Đường kính': '125mm',
-      'Chịu tải': '120kg',
-      'Chất liệu': 'Inox 304 + cao su y tế',
-      'Tính năng': 'Kháng khuẩn, êm ái',
-      'Xuất xứ': 'Việt Nam',
-      'Bảo hành': '24 tháng'
+      'ÄÆ°á»ng kÃ­nh': '125mm',
+      'Chá»‹u táº£i': '120kg',
+      'Cháº¥t liá»‡u': 'Inox 304 + cao su y táº¿',
+      'TÃ­nh nÄƒng': 'KhÃ¡ng khuáº©n, Ãªm Ã¡i',
+      'Xuáº¥t xá»©': 'Viá»‡t Nam',
+      'Báº£o hÃ nh': '24 thÃ¡ng'
     },
     inStock: true,
     featured: true,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     }
   },
 
-  // Xe đẩy hàng
+  // Xe Ä‘áº©y hÃ ng
   {
     id: 'p8',
-    name: 'Xe đẩy hàng 4 bánh 300kg',
+    name: 'Xe Ä‘áº©y hÃ ng 4 bÃ¡nh 300kg',
     slug: 'xe-day-hang-4-banh-300kg',
-    description: 'Xe đẩy 4 bánh chịu tải 300kg, thân xe từ thép không gỉ',
+    description: 'Xe Ä‘áº©y 4 bÃ¡nh chá»‹u táº£i 300kg, thÃ¢n xe tá»« thÃ©p khÃ´ng gá»‰',
     categoryId: '6',
     images: ['/images/products/xe-day-hang/4-banh-300kg-main.jpg'],
     specifications: {
-      'Chịu tải': '300kg',
-      'Kích thước': '600x400x800mm',
-      'Chất liệu': 'Thép không gỉ',
-      'Số bánh xe': '4',
-      'Loại bánh xe': 'PU 125mm',
-      'Bảo hành': '18 tháng'
+      'Chá»‹u táº£i': '300kg',
+      'KÃ­ch thÆ°á»›c': '600x400x800mm',
+      'Cháº¥t liá»‡u': 'ThÃ©p khÃ´ng gá»‰',
+      'Sá»‘ bÃ¡nh xe': '4',
+      'Loáº¡i bÃ¡nh xe': 'PU 125mm',
+      'Báº£o hÃ nh': '18 thÃ¡ng'
     },
     inStock: true,
     featured: true,
     contactInfo: {
-      message: 'Liên hệ để báo giá tốt nhất',
-      hotline: '0908 123 456',
-      action: 'Yêu cầu báo giá'
+      message: 'LiÃªn há»‡ Ä‘á»ƒ bÃ¡o giÃ¡ tá»‘t nháº¥t',
+      hotline: '0933408565',
+      action: 'YÃªu cáº§u bÃ¡o giÃ¡'
     }
   }
 ]
@@ -336,45 +336,45 @@ export const mockProducts: Product[] = [
 export const testimonials = [
   {
     id: 't1',
-    name: 'Anh Minh - KCN Tân Bình',
-    content: 'Bánh xe chất lượng tốt, giá cả hợp lý. Đã mua 50 chiếc cho nhà máy, rất hài lòng với chất lượng và dịch vụ.',
+    name: 'Anh Minh - KCN TÃ¢n BÃ¬nh',
+    content: 'BÃ¡nh xe cháº¥t lÆ°á»£ng tá»‘t, giÃ¡ cáº£ há»£p lÃ½. ÄÃ£ mua 50 chiáº¿c cho nhÃ  mÃ¡y, ráº¥t hÃ i lÃ²ng vá»›i cháº¥t lÆ°á»£ng vÃ  dá»‹ch vá»¥.',
     rating: 5,
-    company: 'Công ty TNHH ABC Manufacturing',
-    product: 'Bánh xe tải trung 125mm',
+    company: 'CÃ´ng ty TNHH ABC Manufacturing',
+    product: 'BÃ¡nh xe táº£i trung 125mm',
     avatar: '/images/testimonials/customer-1.jpg'
   },
   {
     id: 't2',
-    name: 'Chị Lan - Bệnh viện Quận 7',
-    content: 'Bánh xe y tế chất lượng cao, vận hành êm ái và không ồn. Rất phù hợp cho môi trường bệnh viện.',
+    name: 'Chá»‹ Lan - Bá»‡nh viá»‡n Quáº­n 7',
+    content: 'BÃ¡nh xe y táº¿ cháº¥t lÆ°á»£ng cao, váº­n hÃ nh Ãªm Ã¡i vÃ  khÃ´ng á»“n. Ráº¥t phÃ¹ há»£p cho mÃ´i trÆ°á»ng bá»‡nh viá»‡n.',
     rating: 5,
-    company: 'Bệnh viện Đa khoa Quận 7',
-    product: 'Bánh xe y tế 125mm',
+    company: 'Bá»‡nh viá»‡n Äa khoa Quáº­n 7',
+    product: 'BÃ¡nh xe y táº¿ 125mm',
     avatar: '/images/testimonials/customer-2.jpg'
   },
   {
     id: 't3',
-    name: 'Anh Tuấn - Bình Dương',
-    content: 'Tư vấn nhiệt tình, giao hàng nhanh chóng. Sản phẩm đúng như cam kết, sẽ tiếp tục hợp tác lâu dài.',
+    name: 'Anh Tuáº¥n - BÃ¬nh DÆ°Æ¡ng',
+    content: 'TÆ° váº¥n nhiá»‡t tÃ¬nh, giao hÃ ng nhanh chÃ³ng. Sáº£n pháº©m Ä‘Ãºng nhÆ° cam káº¿t, sáº½ tiáº¿p tá»¥c há»£p tÃ¡c lÃ¢u dÃ i.',
     rating: 5,
-    company: 'Nhà máy Dệt may DEF',
-    product: 'Xe đẩy 4 bánh 300kg',
+    company: 'NhÃ  mÃ¡y Dá»‡t may DEF',
+    product: 'Xe Ä‘áº©y 4 bÃ¡nh 300kg',
     avatar: '/images/testimonials/customer-3.jpg'
   }
 ]
 
 export const companyInfo = {
-  name: 'Công ty TNHH Thiết bị Công nghiệp Việt Anh',
-  shortName: 'Bánh xe đẩy HCM',
+  name: 'CÃ´ng ty TNHH Thiáº¿t bá»‹ CÃ´ng nghiá»‡p Viá»‡t Anh',
+  shortName: 'BÃ¡nh xe Ä‘áº©y HCM',
   businessLicense: '3703306910',
   address: {
-    street: '4/6 đường Lê Thị Út, Kp Chiều Liều',
-    district: 'Dĩ An',
-    city: 'Bình Dương',
-    full: '4/6 đường Lê Thị Út, Kp Chiều Liều, Dĩ An, Bình Dương'
+    street: '4/6 Ä‘Æ°á»ng LÃª Thá»‹ Ãšt, Kp Chiá»u Liá»u',
+    district: 'DÄ© An',
+    city: 'BÃ¬nh DÆ°Æ¡ng',
+    full: '4/6 Ä‘Æ°á»ng LÃª Thá»‹ Ãšt, Kp Chiá»u Liá»u, DÄ© An, BÃ¬nh DÆ°Æ¡ng'
   },
   contact: {
-    name: 'Nguyễn Văn Nam',
+    name: 'Nguyá»…n VÄƒn Nam',
     phone: ['0933408565', '0946656975'],
     email: 'nguyennam82dian@gmail.com',
     website: 'https://banhxedayhcm.com'
@@ -382,19 +382,19 @@ export const companyInfo = {
   workingHours: {
     weekdays: '8:00 - 17:00',
     saturday: '8:00 - 12:00',
-    sunday: 'Nghỉ'
+    sunday: 'Nghá»‰'
   },
   services: [
-    'Tư vấn miễn phí',
-    'Giao hàng tận nơi trong 24h',
-    'Bảo hành chính hãng',
-    'Hỗ trợ kỹ thuật',
-    'Thanh toán linh hoạt'
+    'TÆ° váº¥n miá»…n phÃ­',
+    'Giao hÃ ng táº­n nÆ¡i trong 24h',
+    'Báº£o hÃ nh chÃ­nh hÃ£ng',
+    'Há»— trá»£ ká»¹ thuáº­t',
+    'Thanh toÃ¡n linh hoáº¡t'
   ],
   certifications: [
-    'Giấy phép kinh doanh',
+    'Giáº¥y phÃ©p kinh doanh',
     'ISO 9001:2015',
-    'Chứng nhận chất lượng'
+    'Chá»©ng nháº­n cháº¥t lÆ°á»£ng'
   ],
   socialMedia: {
     facebook: 'https://facebook.com/banhxedayhcm',
@@ -415,30 +415,30 @@ export const stats = {
 export const processSteps = [
   {
     id: 'step1',
-    title: 'Tư vấn miễn phí',
-    description: 'Nhận tư vấn từ chuyên gia về sản phẩm phù hợp',
-    icon: '📞',
+    title: 'TÆ° váº¥n miá»…n phÃ­',
+    description: 'Nháº­n tÆ° váº¥n tá»« chuyÃªn gia vá» sáº£n pháº©m phÃ¹ há»£p',
+    icon: 'ðŸ“ž',
     image: '/images/process/consultation.jpg'
   },
   {
     id: 'step2',
-    title: 'Chọn sản phẩm',
-    description: 'Lựa chọn sản phẩm từ kho hàng đa dạng',
-    icon: '🛒',
+    title: 'Chá»n sáº£n pháº©m',
+    description: 'Lá»±a chá»n sáº£n pháº©m tá»« kho hÃ ng Ä‘a dáº¡ng',
+    icon: 'ðŸ›’',
     image: '/images/process/selection.jpg'
   },
   {
     id: 'step3',
-    title: 'Giao hàng nhanh',
-    description: 'Giao hàng trong 24h tại TP.HCM và các tỉnh lân cận',
-    icon: '🚚',
+    title: 'Giao hÃ ng nhanh',
+    description: 'Giao hÃ ng trong 24h táº¡i TP.HCM vÃ  cÃ¡c tá»‰nh lÃ¢n cáº­n',
+    icon: 'ðŸšš',
     image: '/images/process/delivery.jpg'
   },
   {
     id: 'step4',
-    title: 'Hỗ trợ sau bán',
-    description: 'Bảo hành và hỗ trợ kỹ thuật trong suốt quá trình sử dụng',
-    icon: '🔧',
+    title: 'Há»— trá»£ sau bÃ¡n',
+    description: 'Báº£o hÃ nh vÃ  há»— trá»£ ká»¹ thuáº­t trong suá»‘t quÃ¡ trÃ¬nh sá»­ dá»¥ng',
+    icon: 'ðŸ”§',
     image: '/images/process/support.jpg'
   }
 ]

@@ -79,7 +79,7 @@ npm start
 
 - **Website**: banhxedayhcm.com
 - **Email**: info@banhxedayhcm.com
-- **Phone**: 0908 123 456
+- **Phone**: 0933408565
 
 ---
 
