@@ -13,7 +13,7 @@ export default function Header() {
   const navigation = [
     { name: 'Trang chủ', href: '/' },
     { name: 'Sản phẩm', href: '/san-pham' },
-    { name: 'Blog', href: '/blog' },
+    // { name: 'Blog', href: '/blog' }, // Tạm ẩn
     { name: 'Giới thiệu', href: '/gioi-thieu' },
     { name: 'Liên hệ', href: '/lien-he' },
   ]

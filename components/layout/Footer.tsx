@@ -105,9 +105,7 @@ export default function Footer() {
                 <Link href="/san-pham" className="block text-sm text-gray-300 hover:text-white transition-colors">
                   Sản phẩm
                 </Link>
-                <Link href="/blog" className="block text-sm text-gray-300 hover:text-white transition-colors">
-                  Blog
-                </Link>
+                {/* Blog link tạm ẩn */}
                 <Link href="/gioi-thieu" className="block text-sm text-gray-300 hover:text-white transition-colors">
                   Giới thiệu
                 </Link>
